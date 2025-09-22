@@ -1,0 +1,5 @@
+﻿  function.cpp
+C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(11,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(63,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(73,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  String Assessment.vcxproj -> C:\Users\s258037\Documents\GitHub\String-Assessment\x64\Debug\String Assessment.exe
