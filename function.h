@@ -17,17 +17,20 @@ protected:
 public:
 	StringUtil()
 	{
-	
+
 	}
-	string starterString; 
+	void writeInput(string a);
+	string getInput(); 
+	void replaceString();
+	void indexFindString(int a); 
+	int findString(); 
 	int getLength(string a);
-	void charAt(string a);
+	char charAt(string a);
 	void stringEqualTo(string a, string b);
 	void appendString(string a);
 	void prependString(string a);
 	string toLower(string a);
 	string toUpper(string a);
-	char constCharReturn(string a); 
 
 };
 
