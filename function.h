@@ -5,13 +5,15 @@
 #include <string> 
 #include <fstream>
 
-
 using namespace std;
+
+void testUtil(string a, bool b);
+void testResults(int a, int b, int c);
 
 class StringUtil
 {
 private:
-
+	string aString;
 protected:
 
 public:
@@ -19,18 +21,23 @@ public:
 	{
 
 	}
-	void writeInput(string a);
+	StringUtil(string word)
+	{
+		aString = word; 
+	}
+	void runStringUtil();
+	void writeInput(StringUtil a);
 	string getInput(); 
-	void replaceString();
-	void indexFindString(int a); 
-	int findString(); 
-	int getLength(string a);
-	char charAt(string a);
-	void stringEqualTo(string a, string b);
-	void appendString(string a);
-	void prependString(string a);
-	string toLower(string a);
-	string toUpper(string a);
+	int replaceString(StringUtil a, StringUtil b);
+	int indexFindString(StringUtil a, int b); 
+	int findString(StringUtil a, StringUtil b); 
+	int getLength();
+	char charAt();
+	void stringEqualTo();
+	void appendString();
+	void prependString();
+	void toLower();
+	void toUpper();
 
 };
 

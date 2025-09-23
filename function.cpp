@@ -7,144 +7,335 @@
 using namespace std; 
 
 
-int StringUtil::getLength(string a) //finding length
+int StringUtil::getLength() //finding length
 {
-	int length = a.length();
+	bool testBool;
+	string testName = "Length"; 
+	int length = aString.length();
 	cout << "Length is: " << length << endl; 
+	if (length < 0)
+	{
+		testBool = false;
+	}
+	else
+	{
+		testBool = true; 
+	}
+	testUtil(testName, testBool);
 	return length; 
-	
 }
-char StringUtil::charAt(string a) //finding character
+char StringUtil::charAt() //finding character
 {
-	int charChoice;
+	bool testBool;
+	string testName = "CharAt"; 
+	int charChoice = 4;
 	char returnChar;
-	cout << "Enter a number for which character you'd like to grab from the string: " << a << endl;
-	cout << "Choice: ";
-	cin >> charChoice;
-	
-	returnChar = a[charChoice - 1]; 
+	cout << "Pulling character in position 4..." << endl; 
+	returnChar = aString[charChoice - 1];
+	cout << "Character is : " << returnChar << endl; 
+	if (returnChar >= 'A' && returnChar <= 'Z' || returnChar >= 'a' && returnChar <= 'z')
+	{
+		testBool = true; 
+	}
+	else
+	{
+		testBool = false;
+	}
+	testUtil(testName, testBool);
 	return returnChar; 
 }
-void StringUtil::stringEqualTo(string a, string b) //compare strings
+void StringUtil::stringEqualTo() 
 {
-
-	if (a == b)
+	string testName = "EqualTo"; 
+	bool testBool;
+	string compareString = "Apple"; //manually setting a string to be compared
+	if (compareString == aString)
 	{
-		cout << "These 2 strings (" << a << ", " << b << ") are the same!" << endl;
-		cout << endl; 
+		cout << "These 2 strings (" << compareString << ", " << aString << ") are the same!" << endl;
+		cout << endl;
+		testBool = true;
 	}
 	else
 	{
-		cout << "These strings (" << a << ", " << b <<") are not equal!" << endl;
+		cout << "These strings (" << compareString << ", " << aString <<") are not equal!" << endl;
 		cout << endl; 
+		testBool = false; 
 	}
+	testUtil(testName, testBool);
 }
-void StringUtil::appendString(string a)
+void StringUtil::appendString()
 {
-	string b;
-	cout << "Choose something to add to end of the string. " << endl;
-	cout << "Current string : " << a << endl;
-	cout << "String to add: ";
-	cin >> b;
+	bool testBool;
+	string testName = "Append"; 
+	string append = "appending!"; // manually setting a string to be appended
+	string appendedString;
+	cout << "Current string before appending : " << aString << endl;
+	cout << "String to add: " << append << endl; 
+	appendedString = aString + append;
+	cout << appendedString << endl;
 	cout << " " << endl;
-	a += b;
-	cout << a << endl;
-
-}
-void StringUtil::prependString(string a)
-{
-	string b;
-	cout << "Choose something to add to beginning of the string. " << endl;
-	cout << "Current string : " << a << endl;
-	cout << "String to add: ";
-	cin >> b;
-	cout << " " << endl;
-	cout << b + a << endl;  
-}
-string StringUtil::toLower(string a)
-{
-	int i = 0;
-	int length = a.length();
-	for (i = 0; a[i] > length; i++)
+	if (appendedString != aString + append)
 	{
-		a[i] = tolower(a[i]);
+		testBool = false;
 	}
-	cout << a << endl;
-	return a; 
-}
-string StringUtil::toUpper(string a)
-{
-	int length = a.length();
-	int i = 0;
-	for (i = 0; a[i] > length; i++)
+	else
 	{
-		a[i] = toupper(a[i]);
+		testBool = true; 
+	}
+	testUtil(testName, testBool);
+}
+void StringUtil::prependString()
+{
+	bool testBool;
+	string testName = "Prepend"; 
+	string prepend = "Prepended!";
+	string prependedString;
+	cout << "Current string before prepend: " << aString << endl;
+	cout << "String to be added: " << prepend << endl; 
+	prependedString = prepend + aString; 
+	cout << prependedString << endl; 
+	cout << " " << endl;
+	if (prependedString != prepend + aString)
+	{
+		testBool = false; 
+	}
+	else
+	{
+		testBool = true; 
+	}
+	testUtil(testName, testBool);
+}
+void StringUtil::toLower()
+{
+	cout << "Converting String to Lowercase" << endl; 
+	bool testBool;
+	string testName = "ToLower"; 
+	int length = aString.length();
+	for (int i = 0; aString[i] > length; i++)
+	{
+		aString[i] = tolower(aString[i]);
+	}
+	for (int i = 0; aString[i] > length; i++)
+	{
+		if (aString[i] >= 'A' && aString[i] <= 'Z')
+		{
+			testBool = false;
+		}
+		else
+		{
+			testBool = true; 
+		}
+	}
+	cout << aString << endl;
+	cout << endl; 
+	testUtil(testName, testBool);
+}
+void StringUtil::toUpper()
+{
+	cout << "Converting string to uppercase" << endl; 
+	bool testBool;
+	string testName = "ToUpper";
+	int length = aString.length();
+	for (int i = 0; aString[i] > length; i++)
+	{
+		aString[i] = toupper(aString[i]);
+	}
+	for (int i = 0; aString[i] > length; i++)
+	{
+		if (aString[i] >= 'a' && aString[i] <= 'z')
+		{
+			testBool = false;
+		}
+		else
+		{
+			testBool = true;
+		}
+	}
+	cout << aString << endl;
+	cout << endl; 
+	testUtil(testName, testBool); 
+}
+int StringUtil::findString(StringUtil a, StringUtil b)
+{
+	cout << "Searching for the string " << b.aString << " in the string " << a.aString << endl; 
+	bool testBool;
+	string testName = "FindString"; 
+	size_t findPosition = a.aString.find(b.aString);
+	if (findPosition != string::npos)
+	{
+		cout << "The string '" << b.aString << "' was found at " << findPosition << endl; 
+		testBool = true;
 		
 	}
-	cout << a << endl;
-	return a; 
+	else
+	{
+		cout << "The string '" << b.aString << "' was not found." << endl; 
+		testBool = false;
+		return -1;
+	}
+	cout << endl; 
+	testUtil(testName, testBool);
+	return findPosition;
+	
 }
-int StringUtil::findString()
+int StringUtil::indexFindString(StringUtil a, int b)
 {
-	string sentence = "This is a short sentence.";
-	string wordToFind = "short";
-	size_t findPosition = sentence.find(wordToFind); //finding the word "short" in the sentence
+	cout << "Searching for the string " << a.aString << " in the string " << aString << endl;
+	bool testBool;
+	string testName = "FindWithIndex";
+	size_t findPosition = aString.find(a.aString, b); //searching for "weepwoopweep" in "WORD" (now changed to uppercase) 
 	
 	if (findPosition != string::npos)
 	{
-		cout << "The string '" << wordToFind << "' was found at " << findPosition << endl; 
+		cout << "The string '" << a.aString << "' was found at " << findPosition << endl;
+		testBool = true;
+		testUtil(testName, testBool);
+		cout << endl;
+		return findPosition; 
 	}
 	else
 	{
-		cout << "The string '" << wordToFind << "' was not found.(-1)" << endl; 
+		cout << "The string '" << a.aString << "' was not found." << endl;
+		testBool = false;
+		testUtil(testName, testBool);
+		cout << endl;
+		return -1; 
 	}
-	return findPosition; 
-}
-void StringUtil::indexFindString(int a)
-{
-	string sentence = "This is a short setence.";
-	string wordToFind = "short";
-	size_t findPosition = sentence.find(wordToFind, a);
 	
-	if (findPosition != string::npos)
-	{
-		cout << "The string '" << wordToFind << "' was found at " << findPosition << endl;
-	}
-	else
-	{
-		cout << "The string '" << wordToFind << "' was not found.(-1)" << endl;
-	}
-
+	 
 }
 
-void StringUtil::replaceString()
+int StringUtil::replaceString(StringUtil a, StringUtil b)
 {
-	string sentence = "This is a short setence.";
-	string wordToFind = "short";
-	size_t findPosition = sentence.find(wordToFind);
-
-	if (findPosition != string::npos)
+	cout << "Searching and replacing for the string " << b.aString << " in the string " << a.aString << endl;
+	bool testBool = true;
+	bool loopBool = true; //bool to control loop 
+	string testName = "ReplaceString";
+	string replacement = "woop";
+	size_t findPosition = a.aString.find(b.aString);
+	do
 	{
-		cout << "The word '" << wordToFind << "' was found." << endl;
-		cout << "Changing word..." << endl; 
-		wordToFind = "Changed!";   //manually changing the variable once found 
-		cout << "The word is now changed to, " << wordToFind << endl;
-	}
-	else
-	{
-		cout << "The string '" << wordToFind << "' was not found.(-1)" << endl;
-	}
+		size_t findPosition = a.aString.find(b.aString); //searching for "weep" in "weepwoopweep"
+		if (findPosition == string::npos) 
+		{
+			loopBool = false; 
+			break; // manually break out of loop here so that we do not hit the else statement and set the test to fail. 
+		}
+		if (findPosition != string::npos) 
+		{
+			cout << "The word '" << b.aString << "' was found." << endl;
+			cout << "Changing word..." << endl;
+			a.aString.replace(findPosition, 4, replacement);
+			cout << "The word is now changed to, " << a.aString << endl;
+			testBool = true;
+		}
+		else 
+		{
+			cout << "The string '" << b.aString << "' was not found. " << endl;
+			testBool = false;
+			return -1;
+		}
+	} while (loopBool == true); // this loop stops whenever we find "findPosition" = npos (line 206 handles bool logic) 
+	testUtil(testName, testBool); 
+	return 0; 
+	cout << endl; 
 }
 string StringUtil::getInput()
 {
+	bool testBool;
+	string testName = "GetInput"; 
 	string input; 
 	cout << "Input a word for the console to read and write" << endl;
-	cin.ignore(); 
-	getline(cin, input ); 
+	//cin.ignore(); //commented it out because it was not grabbing the first character of the input. now it works properly??
+	getline(cin, input );  // before it would not let me input anything without "cin ignore" first
+	if (cin.fail())
+	{
+		testBool = false; 
+	}
+	else
+	{
+		testBool = true; 
+	}
+	testUtil(testName, testBool);
 	return input; 
 	
 }
-void StringUtil::writeInput(string a)
+void StringUtil::writeInput(StringUtil a)
 {
-	cout << "You entered: " << a << endl; 
+	bool testBool;
+	string testName = "WriteInput"; 
+	cout << a.aString << endl; 
+	if (cout.fail())
+	{
+		testBool = false;
+	}
+	else
+	{
+		testBool = true; 
+	}
+	testUtil(testName, testBool);
+}
+void StringUtil::runStringUtil()
+{
+	StringUtil HelloWorld("Hello World");
+	StringUtil stringToSearch("weepwoopweep"); // this and "finding" are used for the find and find/replace functions
+	StringUtil finding("weep");
+	StringUtil startString("Word"); //This word is used for most of functions
+	int position; 
+	string gotInput; 
+	startString.getLength();
+	startString.charAt(); //finds character and returns it.
+	startString.stringEqualTo(); // comparing strings
+	startString.appendString();
+	startString.prependString();
+	startString.toLower();
+	startString.toUpper();
+	position = startString.findString(stringToSearch, finding); //finds string and returns position to search with 
+	startString.indexFindString(stringToSearch, position); //searches for string at position
+	startString.replaceString(stringToSearch, finding); //replaces string with set word
+	gotInput = startString.getInput();
+	startString.writeInput(HelloWorld); //takes stored info and writes to console
+}
+void testUtil(string a, bool b) //This is the test and log file function. Each of the functions has a "Test Name" and "test bool" 
+{          
+	float percPass = 0;         //string variables get passed through to grab name of the test. bool variable is passed through to decide if test failed
+	static float testFail = 0;    //Had to use "static" so that "testNumber" wouldn't be reset to 0 each time function is called.
+	static float testNumber = 0;  //Total tests. 
+	static float testPass = 0;    
+	ofstream testFile("TestFile.txt", ios::app);
+	if (testFile.is_open())
+	{
+		
+		if (b == true)
+		{
+			testPass++; //counting number of passes
+			testNumber++; 
+			testFile << "Test #" << testNumber << ": " << a << " was successful." << endl;
+			cout << "Test #" << testNumber << ": " << a << " was successful." << endl;
+			cout << endl;
+			
+		}
+		else
+		{
+			testFail++; //counting # of fails
+			testNumber++;
+			testFile << "Test #" << testNumber << ": " << a << " failed." << endl;
+			cout << "Test #" << testNumber << ": " << a << " failed." << endl;
+			cout << endl; 
+		}
+		while (testNumber == 12)// made the do while to only work when we hit our max number of tests(There are 11 tests.) 
+		{
+			float percPass = (testPass / testNumber) *100;
+			testFile << "Success rate: " << percPass << "%" << endl;
+			cout << "Success rate: " << percPass << "%" << endl;
+			testNumber++; //using testNumber++ here to break out of the do while. 
+			testFile.close(); 
+		}
+
+	}
+	else
+	{
+		cout << "ERROR: File could not be written to!" << endl; 
+	}
+
 }

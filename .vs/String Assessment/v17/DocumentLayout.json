@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{148C8D0A-6BC3-4F94-9149-2D2B20ACABF7}|String Assessment.vcxproj|solutionrelative:function.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\TestFile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestFile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{148C8D0A-6BC3-4F94-9149-2D2B20ACABF7}|String Assessment.vcxproj|C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{148C8D0A-6BC3-4F94-9149-2D2B20ACABF7}|String Assessment.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -22,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-22T15:23:02.317Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b015bca8-f686-4aaf-a093-5d028dbdb089}"
@@ -31,14 +49,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-22T15:23:02.317Z",
+              "Title": "TestFile.txt",
+              "DocumentMoniker": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\TestFile.txt",
+              "RelativeDocumentMoniker": "TestFile.txt",
+              "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\TestFile.txt",
+              "RelativeToolTip": "TestFile.txt",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-23T19:21:59.55Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +67,7 @@
               "RelativeDocumentMoniker": "function.cpp",
               "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.cpp",
               "RelativeToolTip": "function.cpp",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAAD0AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADYBAAAAAAAAAAAAAE4BAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-22T15:23:05.152Z",
               "EditorCaption": ""
@@ -62,7 +80,7 @@
               "RelativeDocumentMoniker": "function.h",
               "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.h",
               "RelativeToolTip": "function.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-22T15:23:04.241Z",
               "EditorCaption": ""

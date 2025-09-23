@@ -1,0 +1,429 @@
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString failed.
+Test #1: FindWithIndex failed.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString failed.
+Test #1: FindWithIndex failed.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString failed.
+Test #1: FindWithIndex failed.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString failed.
+Test #1: FindWithIndex failed.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: GetInput was successful.
+Test #1: WriteInput was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: ReplaceString was successful.
+Test #1: GetInput was successful.
+Test #1: WriteInput was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #1: CharAt was successful.
+Test #1: EqualTo failed.
+Test #1: Append was successful.
+Test #1: Prepend was successful.
+Test #1: ToLower was successful.
+Test #1: ToUpper was successful.
+Test #1: FindString was successful.
+Test #1: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Success rate: 1%
+Test #3: CharAt was successful.
+Success rate: 1%
+Test #5: EqualTo failed.
+Success rate: 2%
+Test #7: Append was successful.
+Success rate: 2%
+Test #9: Prepend was successful.
+Success rate: 2%
+Test #11: ToLower was successful.
+Success rate: 2%
+Test #13: ToUpper was successful.
+Success rate: 2%
+Test #15: FindString was successful.
+Success rate: 2%
+Test #17: ReplaceString was successful.
+Success rate: 2%
+Test #1: Length was successful.
+Success rate: 1%
+Test #3: CharAt was successful.
+Success rate: 1%
+Test #1: Length was successful.
+Success rate: 1%
+Test #3: CharAt was successful.
+Success rate: 1%
+Test #5: EqualTo failed.
+Success rate: 2%
+Test #7: Append was successful.
+Success rate: 2%
+Test #9: Prepend was successful.
+Success rate: 2%
+Test #11: ToLower was successful.
+Test #1: Length was successful.
+Success rate: 1%
+Test #1: Length was successful.
+Success rate: 100%
+Test #3: CharAt was successful.
+Success rate: 0%
+Test #5: EqualTo failed.
+Success rate: 0%
+Test #7: Append was successful.
+Success rate: 0%
+Test #9: Prepend was successful.
+Success rate: 0%
+Test #11: ToLower was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Success rate: 0%
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Success rate: 0%
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #10: GetInput was successful.
+Test #11: WriteInput was successful.
+Success rate: 90.9091%
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: FindWithIndex failed.
+Test #10: ReplaceString was successful.
+Test #1: Length was successful.
+Test #2: CharAt was successful.
+Test #3: EqualTo failed.
+Test #4: Append was successful.
+Test #5: Prepend was successful.
+Test #6: ToLower was successful.
+Test #7: ToUpper was successful.
+Test #8: FindString was successful.
+Test #9: FindWithIndex failed.
+Test #10: ReplaceString was successful.
+Test #11: GetInput was successful.
+Test #12: WriteInput was successful.
+Success rate: 83.3333%
