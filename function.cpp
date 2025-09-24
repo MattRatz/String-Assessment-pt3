@@ -48,7 +48,7 @@ void StringUtil::stringEqualTo()
 {
 	string testName = "EqualTo"; 
 	bool testBool;
-	string compareString = "Apple"; //manually setting a string to be compared
+	string compareString = "Word"; //manually setting a string to be compared
 	if (compareString == aString)
 	{
 		cout << "These 2 strings (" << compareString << ", " << aString << ") are the same!" << endl;
@@ -178,16 +178,16 @@ int StringUtil::findString(StringUtil a, StringUtil b)
 	return findPosition;
 	
 }
-int StringUtil::indexFindString(StringUtil a, int b)
+int StringUtil::indexFindString(StringUtil a, StringUtil b, int c) 
 {
-	cout << "Searching for the string " << a.aString << " in the string " << aString << endl;
+	cout << "Searching for the string " << b.aString << " in the string " << a.aString << endl;
 	bool testBool;
 	string testName = "FindWithIndex";
-	size_t findPosition = aString.find(a.aString, b); //searching for "weepwoopweep" in "WORD" (now changed to uppercase) 
+	size_t findPosition = a.aString.find(b.aString, c); //searching for "weep" in "weepwoopweep" 
 	
 	if (findPosition != string::npos)
 	{
-		cout << "The string '" << a.aString << "' was found at " << findPosition << endl;
+		cout << "The string '" << b.aString << "' was found at " << findPosition << endl;
 		testBool = true;
 		testUtil(testName, testBool);
 		cout << endl;
@@ -195,7 +195,7 @@ int StringUtil::indexFindString(StringUtil a, int b)
 	}
 	else
 	{
-		cout << "The string '" << a.aString << "' was not found." << endl;
+		cout << "The string '" << b.aString << "' was not found." << endl;
 		testBool = false;
 		testUtil(testName, testBool);
 		cout << endl;
@@ -275,7 +275,7 @@ void StringUtil::writeInput(StringUtil a)
 	}
 	testUtil(testName, testBool);
 }
-void StringUtil::runStringUtil()
+void StringUtil::runStringUtil() //function to run all functions
 {
 	StringUtil HelloWorld("Hello World");
 	StringUtil stringToSearch("weepwoopweep"); // this and "finding" are used for the find and find/replace functions
@@ -291,14 +291,14 @@ void StringUtil::runStringUtil()
 	startString.toLower();
 	startString.toUpper();
 	position = startString.findString(stringToSearch, finding); //finds string and returns position to search with 
-	startString.indexFindString(stringToSearch, position); //searches for string at position
+	startString.indexFindString(stringToSearch, finding, position); //searches for string at position
 	startString.replaceString(stringToSearch, finding); //replaces string with set word
 	gotInput = startString.getInput();
 	startString.writeInput(HelloWorld); //takes stored info and writes to console
 }
 void testUtil(string a, bool b) //This is the test and log file function. Each of the functions has a "Test Name" and "test bool" 
 {          
-	float percPass = 0;         //string variables get passed through to grab name of the test. bool variable is passed through to decide if test failed
+	float percPass = 0;           //string variables get passed through to grab name of the test. bool variable is passed through to decide if test failed
 	static float testFail = 0;    //Had to use "static" so that "testNumber" wouldn't be reset to 0 each time function is called.
 	static float testNumber = 0;  //Total tests. 
 	static float testPass = 0;    
@@ -323,12 +323,12 @@ void testUtil(string a, bool b) //This is the test and log file function. Each o
 			cout << "Test #" << testNumber << ": " << a << " failed." << endl;
 			cout << endl; 
 		}
-		while (testNumber == 12)// made the do while to only work when we hit our max number of tests(There are 11 tests.) 
+		while (testNumber == 12)// made the do while to only work when we hit our max number of tests(There are 12 tests.) 
 		{
 			float percPass = (testPass / testNumber) *100;
 			testFile << "Success rate: " << percPass << "%" << endl;
 			cout << "Success rate: " << percPass << "%" << endl;
-			testNumber++; //using testNumber++ here to break out of the do while. 
+			testNumber++;    //using testNumber++ here to break out of the do while. 
 			testFile.close(); 
 		}
 

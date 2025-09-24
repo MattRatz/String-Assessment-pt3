@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "TestFile.txt",
               "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\TestFile.txt",
               "RelativeToolTip": "TestFile.txt",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-09-23T19:21:59.55Z",
               "EditorCaption": ""
@@ -65,9 +65,9 @@
               "Title": "function.cpp",
               "DocumentMoniker": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.cpp",
               "RelativeDocumentMoniker": "function.cpp",
-              "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.cpp*",
-              "RelativeToolTip": "function.cpp*",
-              "ViewState": "AgIAADgBAAAAAAAAAAAlwEUBAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.cpp",
+              "RelativeToolTip": "function.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-22T15:23:05.152Z",
               "EditorCaption": ""
@@ -80,7 +80,7 @@
               "RelativeDocumentMoniker": "function.h",
               "ToolTip": "C:\\Users\\s258037\\Documents\\GitHub\\String-Assessment\\function.h",
               "RelativeToolTip": "function.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-22T15:23:04.241Z",
               "EditorCaption": ""

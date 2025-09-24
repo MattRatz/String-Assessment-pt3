@@ -29,7 +29,7 @@ public:
 	void writeInput(StringUtil a);
 	string getInput(); 
 	int replaceString(StringUtil a, StringUtil b);
-	int indexFindString(StringUtil a, int b); 
+	int indexFindString(StringUtil a, StringUtil b, int c); 
 	int findString(StringUtil a, StringUtil b); 
 	int getLength();
 	char charAt();
