@@ -3,13 +3,13 @@
 #include <string> 
 #include <cctype>
 #include <fstream>
-#include "function.h"
+#include "StringUtil.h"
 
 using namespace std; 
-
+//IGNORE RANDOM ACCESS CONTAINER
 int main()
 {
 	StringUtil startString("Word");
 	startString.runStringUtil(); 
-
+	 
 }

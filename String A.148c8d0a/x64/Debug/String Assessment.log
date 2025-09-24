@@ -1,7 +1,10 @@
-﻿  function.cpp
-C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(14,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(113,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(138,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(178,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\s258037\Documents\GitHub\String-Assessment\function.cpp(194,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+﻿  StringUtil.cpp
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(14,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(117,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(142,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(182,9): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(198,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\s258037\Documents\GitHub\String-Assessment\StringUtil.cpp(214,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+  Generating Code...
   String Assessment.vcxproj -> C:\Users\s258037\Documents\GitHub\String-Assessment\x64\Debug\String Assessment.exe
